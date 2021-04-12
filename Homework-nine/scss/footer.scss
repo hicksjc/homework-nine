@@ -1,0 +1,23 @@
+footer {
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    margin: 0px auto;
+    background-color: #bfbfbf;
+    display: flex;
+    justify-content: space-between;
+    .location {
+        padding-top: 45px;
+        padding-left: 268px;
+        color: white;
+    }
+    .phone {
+        color: white;
+        padding-top: 25px;
+        padding-right: 20%;
+        .number {
+            color: black;
+            font-weight: bold;
+        }
+    }
+}

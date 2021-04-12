@@ -1,0 +1,43 @@
+.content-section1 {
+    max-width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    .three-columns {
+        columns: 3;
+        align-items: center;
+        margin-left: 87px;
+        margin-top: 200px;
+        justify-content: space-between;
+        border-radius: 35px;
+        .Address {
+            border-radius: 20px;
+            background-color: $site-grey;
+            width: 376px;
+            height: 216px;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            flex-direction: column; //The direction in which 
+        }
+        .phone {
+            border-radius: 20px;
+            background-color: $site-grey;
+            width: 376px;
+            height: 216px;   
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .email {
+            border-radius: 20px;
+            background-color: $site-grey;
+            width: 376px;
+            height: 216px; 
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+}

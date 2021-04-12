@@ -1,0 +1,135 @@
+.about-content {
+    height: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    .two-columns {
+        columns: 2;
+        display: flex;
+        max-width: 100%;
+        height: 387px;
+        background-color: #cfcfcf;
+        .Welcome {
+            align-self: left;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            flex-direction: column;
+            h1 {
+                color: #414549;
+            }
+            h5 {
+                color: #b6b0ab;
+            }
+            .text-wrapper {
+                width: 40%;
+                display: inline-block;
+                margin: 0 auto;
+                p {
+                    color: #aab4b8;
+                }
+            }
+        }
+        .image {
+            width: 80%;
+            height: 100%;
+            background-image: url(../images/About/AmeliaMcloughlin.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+    }
+    .our-team {
+        height: 893px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+        padding-top: 61px;
+        justify-content: center;
+        background-color: $site-grey;
+        .our-team-title {
+            h1 {
+                font-size: 3rem;
+                color: #414549;
+            }
+            p {
+                font-size: 18px;
+                color: #9a9a9a;
+            }
+        }
+        .team {
+            columns: 3;
+            column-gap: 120px;
+            height: 100%;
+            width: 890px;
+            margin: 0px auto 0px 275px;
+            justify-content: center;
+            list-style-type: none;
+            li {
+                width: 300px;
+                height: 500px;
+                
+                .Darryl {
+                    height: 300px;
+                    width: 100%;
+                    line-height: 300px;
+                    background-image: url(../images/About/DarrylSears.jpg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 20px 20px 0 0;
+                }
+                .Kean {
+                    height: 300px;
+                    width: 100%;
+                    line-height: 300px;
+                    background-image: url(../images/About/KeanTucker.png);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 20px 20px 0 0;
+                }
+                .Aliya {
+                    height: 300px;
+                    width: 100%;
+                    line-height: 300px;
+                    background-image: url(../images/About/AliyaDavis.jpg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 20px 20px 0 0;
+                }
+                .text {
+                    background-color: #cfcfcf;
+                    height: 200px;
+                    border-radius: 0 0 20px 20px;
+                    white-space: normal;
+                    .text-header {
+                        padding-top: 20px;
+                    }
+                    .text-para {
+                        white-space: normal;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 1060px){
+    .team {
+        columns: 3;
+        column-gap: 120px;
+        height: 100%;
+        width: 890px;
+        margin: 0px auto 0 70px !important;
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        li {
+            width: 100px;
+            height: 200px;
+        }
+    }
+}

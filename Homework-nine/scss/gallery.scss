@@ -1,0 +1,236 @@
+h1 {
+    text-align: center;
+    font-style: italic;
+}
+.recipes {
+    width: 818px;
+    min-height: 200px;
+    margin: 0 auto 55px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .recipe {
+        width: 236px;
+        height: 304px;
+        //background-color: burlywood;
+        //margin: 0 55px 55px 0;
+        //margin-right: 10px;
+        margin-bottom: 55px;
+    }
+    .recipe-1 {
+        background-image: url(../images/Gallery/Burger1.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        .content {
+            display: none;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    .recipe-1:hover > .content {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+        display: inline-block;
+        width: 236px;
+        height: 304px;
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+    .recipe-2 {
+        background-image: url(../images/Gallery/Food2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        .content {
+            display: none;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    .recipe-2:hover > .content {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+        display: inline-block;
+        width: 236px;
+        height: 304px;
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+    .recipe-3 {
+        background-image: url(../images/Gallery/Food3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        .content {
+            display: none;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    .recipe-3:hover > .content {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+        display: inline-block;
+        width: 236px;
+        height: 304px;
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+        margin: 0 auto;
+        border-radius: 20px;   
+    }
+    .recipe-4 {
+        background-image: url(../images/Gallery/Food4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        .content {
+            display: none;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    .recipe-4:hover > .content {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+        display: inline-block;
+        width: 236px;
+        height: 304px;
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+    .recipe-5 {
+        background-image: url(../images/Gallery/Food5.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        .content {
+            display: none;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    .recipe-5:hover > .content {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+        display: inline-block;
+        width: 236px;
+        height: 304px;
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+    .recipe-6 {
+        background-image: url(../images/Gallery/Food6.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        .content {
+            display: none;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    .recipe-6:hover > .content {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+        display: inline-block;
+        width: 236px;
+        height: 304px;
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+    .recipe-7 {
+        background-image: url(../images/Gallery/Food7.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        .content {
+            display: none;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    .recipe-7:hover > .content {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+        display: inline-block;
+        width: 236px;
+        height: 304px;
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+    .recipe-8 {
+        background-image: url(../images/Gallery/Food8.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        .content {
+            display: none;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    .recipe-8:hover > .content {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+        display: inline-block;
+        width: 236px;
+        height: 304px;
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+    .recipe-9 {
+        background-image: url(../images/Gallery/Food9.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        .content {
+            display: none;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    .recipe-9:hover > .content {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+        display: inline-block;
+        width: 236px;
+        height: 304px;
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+}

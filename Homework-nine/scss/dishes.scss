@@ -1,0 +1,84 @@
+.Dishes-to-order {
+    height: 570px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    padding-top: 61px;
+    justify-content: center;
+    background-color: $site-grey;
+    .section-title1 {
+        h1 {
+            font-size: 3rem;
+            color: #414549;
+        }
+        p {
+            font-size: 18px;
+            color: #9a9a9a;
+        }
+    }
+    .food-examples {
+        columns: 4;
+        column-gap: 120px;
+        height: 500px;
+        width: 890px;
+        margin: 0px auto 0 275px;
+        justify-content: center;
+        list-style-type: none;
+        li {
+            width: 222.5px;
+            height: 500px;
+            .Sushi {
+                height: 222.5px;
+                width: 100%;
+                line-height: 222.5px;
+                background-image: url(../images/Sushi.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                padding-right: 10px;
+                border-radius: 20px 20px 0 0;
+            }
+            .Pizza {
+                height: 222.5px;
+                width: 100%;
+                line-height: 222.5px;
+                background-image: url(../images/Pizza.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                padding-right: 20px;
+                border-radius: 20px 20px 0 0;
+            }
+            .Burgers {
+                height: 222.5px;
+                width: 100%;
+                line-height: 222.5px;
+                background-image: url(../images/Cheeseburger.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                padding-right: 20px;
+                border-radius: 20px 20px 0 0;
+            }
+            .Desserts {
+                height: 222.5px;
+                width: 100%;
+                line-height: 222.5px;
+                background-image: url(../images/Dessert.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                border-radius: 20px 20px 0 0;
+            }
+            .text{
+                background-color: #fff;
+                height: 120px;
+                border-radius: 0 0 20px 20px;
+                .text-header{
+                    padding-top: 20px;
+                }
+            }
+        }
+    }
+}
